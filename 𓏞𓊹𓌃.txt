@@ -1,0 +1,111 @@
+𓆓𓌃 First opening cell, must be present, optional label to end of line
+𓁹𓄋𓊪𓏏𓏭𓀁𓍸Hello, 𓄂
+
+
+𓄖World!
+𓌪 Then print it out
+
+𓆓𓌃 Label for this cell to end of line
+𓏙𓆓𓂡𓄋𓊪𓏏𓏭𓀁
+
+•𓆓𓌃𓏫 Hello, World!
+•𓆓𓌃𓏫 𓇋𓐩𓆓𓁷𓏤𓎡𓅯𓄿𓇾𓈇𓏤
+•𓆓𓌃𓇋𓈖(Program Name)| 𝈲
+
+Keywords
+𓂡 function name end
+𓉗𓉞 Cell
+𓉐𓋹𓉐	IDE
+𓇼𓄿𓏏𓉐 / 𓊻 / 𓊻𓈉	Output 
+𓊗 iterator
+𓂜 not
+𓎝/𓄥 and
+𓂋/𓄋 or
+𓌪 Single-line Comment
+
+
+𓍝 Condition
+[boolean_entity]𓆄[condition_name]𓍝[true_(wish)]𓄣[false]𓀉
+		𓆄/𓄤 true 
+		𓍅/𓅪 false
+		
+[boolean_condition_1]𓆄[condition_name]𓍝[true_1]𓄣[false_1]𓀉
+	if( boolean_condition_1 ) ->	true_1
+	else 							false_1
+[condition_name]𓍝[false_2]𓀉
+	if( boolean_condition_1 ) ->	true_1
+	else 							false_2
+[condition_name]𓍝
+	if( boolean_condition_1 ) ->	true_1
+	else 							false_2
+	
+Record: 
+Type: 𓍝 Name: [condition_name] Cond: [boolean_condition_1] Action if true: [true_1] Action if false:	[false_1]
+																										[false_2]
+Example:
+𓌳𓄿𓂝𓏛𓊤𓂋𓅱𓀂𓆄𓌷𓄿𓂝𓏏𓏭𓉐𓍝𓆓𓂧𓇋𓐩𓆓𓁷𓂋𓎡𓄣𓈝𓂻𓀜𓀉
+𓌷𓄿𓂝𓏏𓏭𓉐𓍝𓅓𓏏𓀐𓀜𓀉
+if ( the condition "true of voice") 	( print to screen ) 		if not		( continue )
+if																	if not		( exit )
+
+
+[code_block_name_1]
+	code...𓉗
+
+𓀾 image
+𓊮 error
+𓁨 number
+𓀁 string
+𓇥/𓇦	While
+𓌐 do...while
+𓄙 end while
+𓊢/𓊣 break/stop
+𓂻 continue
+𓐣 switch
+𓍉 case
+𓍃 default
+1) 𓈝 goto - 𓊨 mark
+2) 𓊝 goto - 𓊞 mark
+𓄟𓁒 define class?
+
+𓈍 begin
+𓊵 end
+𓅠 find (regex)
+𓍶 contained thing
+𓍷 name? 𓍷strVar𓀁 -> "strVar"
+𓍸 string initial
+𓄡/𓄹/𓂝 = class attributes
+𓊄 skip
+𓅐 parent
+𓅭/𓀕/𓄟 child
+𓍃 complete
+𓉸 msgbox
+𓎗/𓎘 trace
+𓄔 audio
+𓋬 total/complete/#
+𓋭 link
+𓌐/𓁶 first, chief
+𓌞 helper/callback
+𓌨 has attribute
+𓋹 malloc/new
+𓀐/𓏱 free/delete
+𓎡 next line
+𓆣 class/struct
+𓊖 public
+𓉐 private
+
+Code Blocks
+𓊅	𓊆	𓊇	𓊈	𓊉	comments? (walled off from everything else)
+𓉗	𓉘	𓉙	𓉚	𓉛	𓉜	𓉝	𓉞	𓉟	blocks and cell (separable units)
+
+Basic Types
+𓆄? bool
+𓁨? number
+𓀁 string
+ list
+
+New SML Stuff
+local	(hidden from rest of program, only visible in this block)
+in	(visible to rest of program, can use things in local)
+end	(end this block)
+
